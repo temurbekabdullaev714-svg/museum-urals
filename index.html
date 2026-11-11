@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08080d">
+  <meta name="description" content="Виртуальный путеводитель по Государственному историческому музею Южного Урала в Челябинске: маршрут по трём залам, коллекция, история музея и квиз.">
+  <title>Музей Южного Урала — виртуальный путеводитель · Челябинск</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Музей Южного Урала — на главную">
+        <img src="assets/images/Group 1.png" class="brand-mark" alt="Логотип" style="background: none; box-shadow: none; transform: none; object-fit: contain;">
+        <span class="brand-name">Музей Южного Урала<span class="brand-sub">Челябинск · виртуальный путеводитель</span></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Открыть меню">
+        <span aria-hidden="true"></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Основная навигация">
+        <a href="index.html">Главная</a>
+        <a href="museum.html">О музее</a>
+        <a href="route.html">Маршрут</a>
+        <a href="collection.html">Коллекция</a>
+        <a href="history.html">История</a>
+        <a href="quiz.html">Квиз</a>
+      </nav>
+
+      <a class="header-cta" href="route.html">Начать экскурсию <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Герой -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Челябинск · ул. Труда, 100 · три зала постоянной экспозиции</p>
+          <h1 class="hero-title" id="hero-title">Музей<br>Южного Урала<br><em>за один визит.</em></h1>
+          <p class="hero-lead">
+            Государственный исторический музей Южного Урала хранит более 300 тысяч предметов —
+            от гигантского фрагмента челябинского метеорита до купеческой пролётки.
+            Пройдите маршрут по трём залам, загляните в коллекцию и проверьте себя в квизе.
+          </p>
+          <div class="hero-chips" aria-label="Ключевые темы проекта">
+            <span>#Челябинск</span>
+            <span>#музей</span>
+            <span>#метеорит</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button button--primary" href="route.html">Пройти маршрут <span aria-hidden="true">→</span></a>
+            <a class="button button--ghost" href="quiz.html">Проверить себя</a>
+          </div>
+
+          <dl class="hero-meta">
+            <div>
+              <dt>Адрес</dt>
+              <dd>ул. Труда, <span>100</span></dd>
+            </div>
+            <div>
+              <dt>Режим работы</dt>
+              <dd>10:00 — <span>20:00</span></dd>
+            </div>
+            <div>
+              <dt>Экспозиция</dt>
+              <dd><span>3</span> зала · 6+</dd>
+            </div>
+          </dl>
+        </div>
+
+        <figure class="hero-figure">
+          <div class="frame">
+            <img src="assets/images/meteorite-museum.jpg" width="1400" height="1050"
+                 alt="Фрагмент Челябинского метеорита весом более 600 килограммов под стеклянным колпаком в центре Зала природы и древней истории">
+            <figcaption>
+              <span>Зал природы и древней истории</span>
+              <span>Фото: Lumaca · CC BY-SA 4.0</span>
+            </figcaption>
+          </div>
+          <span class="hero-stamp" aria-hidden="true">600+ кг<br>из космоса</span>
+        </figure>
+      </div>
+    </section>
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <div class="ticker-group">
+          <span class="ticker-item">600+ кг метеорита</span>
+          <span class="ticker-item">300 000+ предметов</span>
+          <span class="ticker-item">3 зала экспозиции</span>
+          <span class="ticker-item">1913 → 2026</span>
+          <span class="ticker-item">Челябинск · Труда, 100</span>
+          <span class="ticker-item">Музей на крыше</span>
+          <span class="ticker-item">Пространство «Атом»</span>
+        </div>
+        <div class="ticker-group">
+          <span class="ticker-item">600+ кг метеорита</span>
+          <span class="ticker-item">300 000+ предметов</span>
+          <span class="ticker-item">3 зала экспозиции</span>
+          <span class="ticker-item">1913 → 2026</span>
+          <span class="ticker-item">Челябинск · Труда, 100</span>
+          <span class="ticker-item">Музей на крыше</span>
+          <span class="ticker-item">Пространство «Атом»</span>
+        </div>
+      </div>
+    </div>
+    <section class="facts-strip" aria-label="Музей в цифрах">
+      <div class="container">
+        <div class="fact"><strong>1913</strong><span>год зарождения музейных коллекций Челябинска</span></div>
+        <div class="fact"><strong>300 000+</strong><span>единиц хранения в собрании музея</span></div>
+        <div class="fact"><strong>600+ кг</strong><span>вес фрагмента метеорита «Челябинск» в экспозиции</span></div>
+        <div class="fact"><strong>2006</strong><span>год открытия нового здания на набережной Миасса</span></div>
+      </div>
+    </section>
+    <section class="section section--tight" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Фотоальбом</p>
+            <h2 class="section-title" id="gallery-title">Музей <em>в кадре</em></h2>
+          </div>
+          <p class="section-lead">
+            Здание-крепость на набережной Миасса, светлые залы и подлинные предметы
+            экспозиции — несколько кадров, чтобы узнать музей ещё до визита.
+          </p>
+        </div>
+
+        <div class="photo-strip reveal">
+          <figure class="is-wide">
+            <img src="assets/images/museum-panorama.jpg" width="1920" height="948" loading="lazy"
+                 alt="Панорама здания Государственного исторического музея Южного Урала на набережной реки Миасс">
+            <figcaption>
+              <strong>Музей на набережной Миасса</strong>
+              <span>Фото: Vyacheslav Bukharov · CC BY-SA 4.0</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="assets/images/museum-entrance.jpg" width="1920" height="767" loading="lazy"
+                 alt="Стеклянный фасад и входная группа музея Южного Урала">
+            <figcaption>
+              <strong>Стеклянный фасад</strong>
+              <span>Фото: Vyacheslav Bukharov · CC BY-SA 4.0</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="assets/images/hall-xx.jpg" width="1920" height="1077" loading="lazy"
+                 alt="Экспозиция зала истории XX века с витринами и объёмными композициями">
+            <figcaption>
+              <strong>Зал истории XX века</strong>
+              <span>Фото: Vyacheslav Bukharov · CC BY-SA 4.0</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="assets/images/hall-xx-2.jpg" width="1920" height="1077" loading="lazy"
+                 alt="Витрины и документы в зале истории XX века">
+            <figcaption>
+              <strong>Витрины и документы</strong>
+              <span>Фото: Vyacheslav Bukharov · CC BY-SA 4.0</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="assets/images/museum-nw.jpg" width="1496" height="873" loading="lazy"
+                 alt="Вид на музей Южного Урала с северо-запада">
+            <figcaption>
+              <strong>Вид с северо-запада</strong>
+              <span>Фото: Alexander Sapozhnikov · CC BY-SA 4.0</span>
+            </figcaption>
+          </figure>
+        </div>
+        <p class="gallery-note">Листайте фотографии вбок — на телефоне галерея тоже свайпается.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="sections-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Что внутри</p>
+            <h2 class="section-title" id="sections-title">Пять шагов<br><em>по музею</em></h2>
+          </div>
+          <p class="section-lead">
+            Сайт устроен как короткая экскурсия: сначала общий маршрут, потом детали —
+            залы, предметы, история города и музея, а в конце небольшой квиз.
+          </p>
+        </div>
+
+        <div class="cards">
+          <a class="card reveal" href="museum.html">
+            <span class="card-index">01</span>
+            <h3>О музее</h3>
+            <p>Кто создал музей, как он переехал в здание-крепость на набережной и чем живёт сегодня.</p>
+            <span class="card-link">Открыть ↗</span>
+          </a>
+          <a class="card reveal" href="route.html">
+            <span class="card-index">02</span>
+            <h3>Маршрут</h3>
+            <p>Интерактивная схема трёх залов: выберите остановку и узнайте, что смотреть в первую очередь.</p>
+            <span class="card-link">Пройти ↗</span>
+          </a>
+          <a class="card reveal" href="collection.html">
+            <span class="card-index">03</span>
+            <h3>Коллекция</h3>
+            <p>Ключевые экспозиции: метеорит, минералы, макет крепости, доменная печь и городская улица.</p>
+            <span class="card-link">Смотреть ↗</span>
+          </a>
+          <a class="card reveal" href="history.html">
+            <span class="card-index">04</span>
+            <h3>История</h3>
+            <p>Таймлайн от первых музейных идей 1913 года до креативного пространства «Атом».</p>
+            <span class="card-link">Листать ↗</span>
+          </a>
+          <a class="card reveal" href="quiz.html">
+            <span class="card-index">05</span>
+            <h3>Квиз</h3>
+            <p>Десять вопросов об экспозиции — узнайте, насколько хорошо вы готовы к реальной экскурсии.</p>
+            <span class="card-link">Пройти тест ↗</span>
+          </a>
+          <a class="card reveal" href="#visit">
+            <span class="card-index">06</span>
+            <h3>Посещение</h3>
+            <p>Адрес, режим работы, цены на билеты и контакты — всё, что нужно спланировать визит.</p>
+            <span class="card-link">Узнать ↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft" aria-labelledby="route-preview-title">
+      <div class="container split reveal">
+        <figure>
+          <img src="assets/images/museum-interior.jpg" width="1920" height="696"
+               alt="Вход в Государственный исторический музей Южного Урала со стороны городской площади">
+          <figcaption>Вход в музей со стороны площади · фото Vyacheslav Bukharov, CC BY-SA 4.0</figcaption>
+        </figure>
+        <div>
+          <p class="eyebrow">Маршрут</p>
+          <h2 id="route-preview-title">Три зала,<br><em>один маршрут</em></h2>
+          <p>
+            Постоянная экспозиция размещена в Восточной и Западной башнях музея.
+            Наш маршрут связывает их в одну логичную прогулку — от природы и древней истории
+            через народный быт к городу XX века.
+          </p>
+          <ul class="check-list">
+            <li><strong>Зал природы и древней истории</strong> — метеорит, шерстистый носорог, минералы и археология Аркаима.</li>
+            <li><strong>Зал истории и народного быта</strong> — макет первой крепости, доменная печь XVIII века, купеческая гостиная.</li>
+            <li><strong>Зал истории XX века</strong> — городская улица с лавками, пролётка, Танкоград и советская эпоха.</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="button button--primary" href="route.html">Открыть схему <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="visit" aria-labelledby="visit-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Планирование визита</p>
+            <h2 class="section-title" id="visit-title">Как посетить <em>музей</em></h2>
+          </div>
+          <p class="section-lead">
+            Данные приведены по официальному сайту музея. Актуальное расписание и цены
+            перед поездкой проверьте на chelmuseum.ru.
+          </p>
+        </div>
+
+        <div class="info-grid reveal">
+          <article class="info-card">
+            <h3>Адрес и режим</h3>
+            <p><strong>г. Челябинск, ул. Труда, 100</strong></p>
+            <p>Ежедневно с 10:00 до 20:00.<br>Продажа билетов заканчивается в 19:15.</p>
+            <p>Последний понедельник месяца — технический день.</p>
+          </article>
+
+          <article class="info-card">
+            <h3>Контакты</h3>
+            <p>Телефон: <strong><a href="tel:+73512250380">+7 (351) 225-03-80</a></strong></p>
+            <p>Почта: <a href="mailto:mail@chelmuseum.ru">mail@chelmuseum.ru</a></p>
+            <p>Возрастное ограничение экспозиции: 6+.<br>Доступна «Пушкинская карта».</p>
+          </article>
+
+          <article class="info-card">
+            <h3>Билеты (ориентир)</h3>
+            <table class="price-table">
+              <tbody>
+                <tr><th scope="row">Взрослый</th><td>500 ₽</td></tr>
+                <tr><th scope="row">Детский</th><td>300 ₽</td></tr>
+                <tr><th scope="row">Льготный</th><td>200 ₽</td></tr>
+                <tr><th scope="row">Семейный (2+1)</th><td>800 ₽</td></tr>
+              </tbody>
+            </table>
+          </article>
+        </div>
+
+        <div class="cta-block reveal" style="margin-top: 34px;">
+          <div>
+            <h2>Сначала маршрут — потом билеты</h2>
+            <p>Пройдите виртуальную экскурсию заранее и решите, каким залам уделить больше времени при реальном визите.</p>
+          </div>
+          <div class="cta-actions">
+            <a class="button button--primary" href="route.html">Маршрут по залам</a>
+            <a class="button button--ghost" href="https://chelmuseum.ru/" target="_blank" rel="noreferrer">Официальный сайт ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section--soft" aria-labelledby="team-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Авторство</p>
+            <h2 class="section-title" id="team-title">Команда <em>авторов</em></h2>
+          </div>
+          <p class="section-lead">
+            Учебный проект выполнен командой из трёх участников. Участники 1 и 3 вместе
+            отвечают за разработку и вёрстку, участник 2 — за дизайн, графику и контент.
+          </p>
+        </div>
+        <div class="team-grid reveal">
+          <article class="team-card">
+            <div class="team-avatar">
+              <span aria-hidden="true">У1</span>
+              <img src="assets/images/xFUel3Wk.jpg" width="800" height="800" loading="lazy"
+                   alt="Фото участника 1" onerror="this.hidden=true">
+            </div>
+            <h3>Участник 1</h3>
+            <span class="team-role">Разработка · совместно с участником 3</span>
+            <p>Абдуллаев Темурбек Сайибжонович</p>
+          </article>
+          <article class="team-card">
+            <div class="team-avatar">
+              <span aria-hidden="true">У2</span>
+              <img src="assets/images/Q_7I99ul.jpg" width="800" height="800" loading="lazy"
+                   alt="Фото участника 2" onerror="this.hidden=true">
+            </div>
+            <h3>Участник 2</h3>
+            <span class="team-role">Дизайн, графика и контент</span>
+            <p>Ионин Николай Максимович</p>
+          </article>
+          <article class="team-card">
+            <div class="team-avatar">
+              <span aria-hidden="true">У3</span>
+              <img src="assets/images/LxFRM_Ic.jpg" width="800" height="800" loading="lazy"
+                   alt="Фото участника 3" onerror="this.hidden=true">
+            </div>
+            <h3>Участник 3</h3>
+            <span class="team-role">Разработка · совместно с участником 1</span>
+            <p>Александровский Семён Дмитриевич</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="sources" aria-labelledby="sources-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Открытое авторство</p>
+            <h2 class="section-title" id="sources-title">Источники <em>и материалы</em></h2>
+          </div>
+          <p class="section-lead">
+            Факты о музее и экспозиции подготовлены по официальным материалам.
+            Полный список с лицензиями — в файле ИСТОЧНИКИ.md в архиве работы.
+          </p>
+        </div>
+
+        <div class="sources-list reveal">
+          <article class="source-item">
+            <span class="source-num">01</span>
+            <div>
+              <h3>Официальный сайт Государственного исторического музея Южного Урала</h3>
+              <p>История музея, описание залов, режим работы, билеты и контакты.</p>
+            </div>
+            <a href="https://chelmuseum.ru/" target="_blank" rel="noreferrer">chelmuseum.ru ↗</a>
+          </article>
+
+          <article class="source-item">
+            <span class="source-num">02</span>
+            <div>
+              <h3>Постоянная экспозиция музея</h3>
+              <p>Названия залов, содержание экспозиции, вес метеорита, стоимость билетов.</p>
+            </div>
+            <a href="https://chelmuseum.ru/exhibitions/postoyannaya-ekspozitsiya-muzeya/" target="_blank" rel="noreferrer">Описание ↗</a>
+          </article>
+
+          <article class="source-item">
+            <span class="source-num">03</span>
+            <div>
+              <h3>Фотографии экспонатов и здания</h3>
+              <p>Wikimedia Commons: Lumaca, Vyacheslav Bukharov, Alexander Sapozhnikov, Ural-66, IlyaZero, Angidgid, Vsatinet, Лапоть — лицензии CC0 и CC BY-SA.</p>
+            </div>
+            <a href="https://commons.wikimedia.org/" target="_blank" rel="noreferrer">Commons ↗</a>
+          </article>
+        </div>
+
+        <p class="license-note reveal">
+          Тексты сайта — авторская подготовка по указанным источникам; схема залов и иконки
+          нарисованы для проекта. Музыкальные и видеофрагменты на сайте не используются.
+          Перед поездкой проверяйте актуальные расписание и цены на официальном сайте музея.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a class="brand" href="index.html">
+            <img src="assets/images/Group 1.png" class="brand-mark" alt="Логотип" style="background: none; box-shadow: none; transform: none; object-fit: contain;">
+            <span class="brand-name">Музей Южного Урала<span class="brand-sub">Челябинск · виртуальный путеводитель</span></span>
+          </a>
+          <p>
+            Учебный проект по веб-дизайну. Интерактивный путеводитель по постоянной
+            экспозиции Государственного исторического музея Южного Урала.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Разделы</h3>
+          <ul>
+            <li><a href="museum.html">О музее</a></li>
+            <li><a href="route.html">Маршрут по залам</a></li>
+            <li><a href="collection.html">Коллекция</a></li>
+            <li><a href="history.html">История музея</a></li>
+            <li><a href="quiz.html">Квиз</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Контакты музея</h3>
+          <address>
+            <span>г. Челябинск, ул. Труда, 100</span>
+            <a href="tel:+73512250380">+7 (351) 225-03-80</a>
+            <a href="mailto:mail@chelmuseum.ru">mail@chelmuseum.ru</a>
+            <a href="https://chelmuseum.ru/" target="_blank" rel="noreferrer">chelmuseum.ru ↗</a>
+          </address>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          © <span id="current-year">2026</span> Учебный проект «Музей Южного Урала» ·
+          Авторство: команда из трёх участников · Источники: <a href="#sources">раздел «Источники»</a>,
+          <a href="https://chelmuseum.ru/" target="_blank" rel="noreferrer">chelmuseum.ru</a>,
+          Wikimedia Commons (CC0 / CC BY-SA). Музыка и видео не используются.
+        </p>
+        <a href="#main">Наверх ↑</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
